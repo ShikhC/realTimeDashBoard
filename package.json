@@ -4,8 +4,12 @@
   "description": "Realtime Dashboards",
   "main": "./compiled/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
   },
   "author": "Shikher/Sreeparna",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.0.3"
+  }
 }
