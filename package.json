@@ -5,11 +5,13 @@
   "main": "./compiled/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "start":"compiled/index.js"
   },
   "author": "Shikher/Sreeparna",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "typescript": "^3.0.3"
   }
 }
