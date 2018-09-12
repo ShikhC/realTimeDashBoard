@@ -1,17 +1,33 @@
 {
   "name": "realtimedashboard",
   "version": "1.0.0",
-  "description": "Realtime Dashboards",
-  "main": "./compiled/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc",
-    "start":"compiled/index.js"
-  },
-  "author": "Shikher/Sreeparna",
-  "license": "ISC",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.12",
+    "@types/node": "^10.9.4",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.14",
+    "morgan": "^1.9.1",
     "typescript": "^3.0.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShikhC/realTimeDashBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShikhC/realTimeDashBoard/issues"
+  },
+  "homepage": "https://github.com/ShikhC/realTimeDashBoard#readme"
 }
