@@ -1,8 +1,7 @@
-import {Hello} from './src/hello'
+import * as Hello from './src/hello'
 
 export function f() {
-    let hello: Hello = new Hello('hi');
-    hello.print('test');
+    let hello: Hello.Hello = new Hello.Hello('hi');
+    hello.print('sree');
 }
-
 f();

@@ -6,7 +6,7 @@ export class Hello{
         this.name = name;
     }
 
-    public print(name: string){
-        console.log(name);
+    print(name: string){
+        console.log('my name is : ' + name);
     }
 }
